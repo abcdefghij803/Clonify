@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-SOURCE = getenv("SOURCE", "https://github.com/abcdefghij803/Clonify")
+SOURCE = getenv("SOURCE", "")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/abcdefghij803/Clonify",
@@ -72,9 +72,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Meowtasticxsupport")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc")
-CHAT = getenv("CHAT", "https://t.me/btw_moon")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/btw_moon")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Meowtasticxsupport")
+CHAT = getenv("CHAT", "https://t.me/shayariAlfaazonKaAaina")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -149,7 +149,7 @@ STREAMI_PICS = [
 ]
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/xPjc7tv/help-menu.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/b0omg2.jpg"
 )
 
 HELP_IMG_URL = getenv(
