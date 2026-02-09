@@ -1,12 +1,20 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+FROM nikolaik/python-nodejs:python3.10-nodejs20-bullseye
 
+# Install ffmpeg safely
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-COPY . /app/
-WORKDIR /app/
-RUN pip3 install --no-cache-dir -U -r requirements.txt
+# App directory
+WORKDIR /app
 
-CMD bash start
+# Copy files
+COPY . .
+
+# Install Python deps
+RUN pip3 install --no-cache-dir -U pip \
+    && pip3 install --no-cache-dir -r requirements.txt
+
+# Start app
+CMD ["bash", "start"]
