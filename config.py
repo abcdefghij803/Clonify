@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-SOURCE = getenv("SOURCE", "https://t.me/shayariAlfaazonKaAaina")
+SOURCE = getenv("SOURCE", "https://t.me/Meowstric")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/abcdefghij803/Clonify",
