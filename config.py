@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","8206915712:AAFYVKGjsLeO5WoGZYT6tLpsmzka14srTsw")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","MOON_M_5")
@@ -74,7 +74,7 @@ GIT_TOKEN = getenv(
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/btw_moon")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Meowtasticxsupport")
-CHAT = getenv("CHAT", "https://t.me/shayariAlfaazonKaAaina")
+CHAT = getenv("CHAT", "https://t.me/Meowstric")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
